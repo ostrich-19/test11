@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1921" height="90.5" viewBox="0 0 1921 90.5">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#121867" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#3a3f84" stop-opacity="0.149"/>
+    </linearGradient>
+  </defs>
+  <g id="pic_guide_btm" transform="translate(-245.5 -534.306)">
+    <path id="bg_btm" d="M2166,578.895H1900.188l-19.771-18.913H1441.908l-27.885-26.675H1285.439l-14.74,14.1H1141.3l-14.74-14.1H997.978l-27.885,26.675H531.584l-19.771,18.913H246v43.912H2166Z" transform="translate(0 1.5)" opacity="0.4" fill="url(#linear-gradient)"/>
+    <path id="ele_line" d="M2166,578.895H1900.188l-19.771-18.913H1441.908l-27.885-26.675H1285.439l-14.74,14.1H1141.3l-14.74-14.1H997.978l-27.885,26.675H531.584l-19.771,18.913H246v43.912H2166Z" transform="translate(0 1.5)" fill="none" stroke="#0080ff" stroke-width="1"/>
+    <g id="ele_left">
+      <path id="ele_l_c" d="M363,562.378h6.59L384.968,547h-6.59Z" transform="translate(140.025 14.805)" fill="#e9b508"/>
+      <path id="ele_l_b" d="M358,562.378h6.59L379.968,547h-6.59Z" transform="translate(134.041 14.805)" fill="#e9b508" opacity="0.7"/>
+      <path id="ele_l_a" d="M353,562.378h6.59L374.968,547h-6.59Z" transform="translate(128.057 14.805)" fill="#e9b508" opacity="0.2"/>
+    </g>
+    <g id="ele_right">
+      <path id="ele_r_c" d="M1015.968,562.378h-6.59L994,547h6.59Z" transform="translate(895.204 14.805)" fill="#ffc400"/>
+      <path id="ele_r_b" d="M1020.968,562.378h-6.59L999,547h6.59Z" transform="translate(901.188 14.805)" fill="#ffc400" opacity="0.7"/>
+      <path id="ele_r_a" d="M1025.968,562.378h-6.59L1004,547h6.591Z" transform="translate(907.172 14.805)" fill="#ffc400" opacity="0.2"/>
+    </g>
+    <path id="ele_center" d="M0,0H100L95,4H5Z" transform="translate(1156 551.001)" fill="#ffc400"/>
+  </g>
+</svg>

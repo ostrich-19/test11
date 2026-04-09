@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="225.723" height="749.905" viewBox="0 0 225.723 749.905">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1422e9" stop-opacity="0"/>
+      <stop offset="0.331" stop-color="#1422e9" stop-opacity="0.804"/>
+      <stop offset="0.479" stop-color="#fff"/>
+      <stop offset="0.64" stop-color="#1422e9" stop-opacity="0.804"/>
+      <stop offset="1" stop-color="#1422e9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1422e9" stop-opacity="0"/>
+      <stop offset="0.479" stop-color="#1422e9"/>
+      <stop offset="1" stop-color="#1422e9" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1422e9" stop-opacity="0"/>
+      <stop offset="0.318" stop-color="#1422e9" stop-opacity="0.749"/>
+      <stop offset="0.586" stop-color="#1422e9" stop-opacity="0.141"/>
+      <stop offset="0.749" stop-color="#1422e9" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#1422e9" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="pic_guide_decoration_l" transform="translate(463.5 -219.048)">
+    <path id="路径_186" data-name="路径 186" d="M-379.042,968.952a721.622,721.622,0,0,1-35.58-82.959,807.18,807.18,0,0,1-26.545-91.042,915.245,915.245,0,0,1,0-401.9,807.181,807.181,0,0,1,26.545-91.042,721.633,721.633,0,0,1,35.58-82.959l1.784.9C-432.37,328.625-461.5,457.969-461.5,594s29.13,265.375,84.242,374.048Z" fill="url(#linear-gradient)"/>
+    <path id="路径_185" data-name="路径 185" d="M-426.882,753.632a613.9,613.9,0,0,1,0-319.263l.965.263a612.9,612.9,0,0,0,0,318.737Z" fill="url(#linear-gradient-2)"/>
+    <path id="路径_187" data-name="路径 187" d="M-238.643,968.75a652.954,652.954,0,0,1-39.641-81.824,730.194,730.194,0,0,1-29.668-90.754,792.537,792.537,0,0,1-18.6-98.152c-2.121-16.921-3.74-34.2-4.81-51.372C-332.45,629.26-333,611.547-333,594s.55-35.26,1.634-52.647c1.07-17.167,2.689-34.451,4.81-51.372a792.533,792.533,0,0,1,18.6-98.152,730.194,730.194,0,0,1,29.668-90.754,652.96,652.96,0,0,1,39.641-81.824l.867.5c-29.884,51.883-53.169,109.862-69.208,172.327a827.459,827.459,0,0,0,0,403.846c16.039,62.465,39.324,120.445,69.208,172.327Z" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>

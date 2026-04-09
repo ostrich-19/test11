@@ -1,0 +1,35 @@
+.pub_mod_content .con_list {
+    height: calc(100% - 45px);
+}
+.con_search {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 40px;
+}
+.con_search .item_fill {
+    width: auto;
+}
+.con_search .item_fill .item_fill_tit {
+    width: 70px;
+}
+.con_search .item_fill .item_fill_con {
+    width: 240px;
+    height: auto;
+}
+.con_table {
+    width: 100%;
+    height: calc(100% - 95px);
+    /* 背景颜色需删除 */
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.pub_mod_pop .mpd_pop_body {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 0px 40px;
+}
+.pub_mod_pop .mpd_pop_body .item_fill {
+    width: calc(50% - 20px);
+}

@@ -1,0 +1,256 @@
+<svg class="item_guide_decoration" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="320.1" height="159" viewBox="0 0 320.1 159">
+                <defs>
+                    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#0080ff" />
+                        <stop offset="1" stop-color="#0080ff" stop-opacity="0" />
+                    </radialGradient>
+                    <linearGradient id="linear-gradient" x1="1" x2="0" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#ffc400" stop-opacity="0" />
+                        <stop offset="1" stop-color="#ffc400" />
+                    </linearGradient>
+                    <linearGradient id="linear-gradient-2" x1="1" x2="0" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#ffc400" />
+                        <stop offset="1" stop-color="#ffc400" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient id="linear-gradient-3" x2="1" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#5caef9" stop-opacity="0.02" />
+                        <stop offset="0.498" stop-color="#2e97fc" />
+                        <stop offset="1" stop-color="#0080ff" stop-opacity="0.031" />
+                    </linearGradient>
+                    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                        <stop offset="0" stop-color="#1d70b8" />
+                        <stop offset="0.33" stop-color="#195ba4" />
+                        <stop offset="1" stop-color="#060251" />
+                    </linearGradient>
+                    <linearGradient id="linear-gradient-6" x1="0.266" y1="1" x2="0.266" y2="0"
+                        xlink:href="#linear-gradient-5" />
+        
+                    <!-- 虚线流动效果使用的渐变 -->
+                    <linearGradient id="dash-flow-gradient" x1="0" y1="0.5" x2="1" y2="0.5">
+                        <stop offset="0%" stop-color="#071B50" stop-opacity="0">
+                            <animate attributeName="offset" values="0;1" dur="4s" repeatCount="indefinite" />
+                        </stop>
+                        <stop offset="10%" stop-color="#071B50" stop-opacity="1">
+                            <animate attributeName="offset" values="0.1;1.1" dur="4s" repeatCount="indefinite" />
+                        </stop>
+                        <stop offset="15%" stop-color="#071B50" stop-opacity="1">
+                            <animate attributeName="offset" values="0.15;1.15" dur="4s" repeatCount="indefinite" />
+                        </stop>
+                        <stop offset="25%" stop-color="#071B50" stop-opacity="0">
+                            <animate attributeName="offset" values="0.25;1.25" dur="4s" repeatCount="indefinite" />
+                        </stop>
+                        <stop offset="100%" stop-color="#071B50" stop-opacity="0">
+                            <animate attributeName="offset" values="1;2" dur="4s" repeatCount="indefinite" />
+                        </stop>
+                    </linearGradient>
+        
+                    <!-- 创建虚线图案 -->
+                    <pattern id="dash-pattern" patternUnits="userSpaceOnUse" width="20" height="2">
+                        <rect width="10" height="1.5" fill="#071B50" opacity="0.2">
+                            <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite" />
+                        </rect>
+                    </pattern>
+                </defs>
+        
+                <style>
+                    /* 定义动画关键帧 */
+                    @keyframes horizontalMove {
+        
+                        0%,
+                        100% {
+                            transform: translateX(0);
+                        }
+        
+                        50% {
+                            transform: translateX(10px);
+                        }
+                    }
+        
+                    @keyframes verticalMove {
+        
+                        0%,
+                        100% {
+                            transform: translateY(0);
+                        }
+        
+                        50% {
+                            transform: translateY(8px);
+                        }
+                    }
+        
+                    /* 虚线流动动画 */
+                    @keyframes dashFlow {
+                        0% {
+                            stroke-dashoffset: 100;
+                        }
+        
+                        100% {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+        
+                    @keyframes dashFlowReverse {
+                        0% {
+                            stroke-dashoffset: 0;
+                        }
+        
+                        100% {
+                            stroke-dashoffset: 100;
+                        }
+                    }
+        
+                    .horizontal-animation {
+                        animation: horizontalMove 8s ease-in-out infinite;
+                        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+                    }
+        
+                    .vertical-animation {
+                        animation: verticalMove 6s ease-in-out infinite;
+                        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+                    }
+        
+                    .dash-flow {
+                        animation: dashFlow 6s linear infinite;
+                        stroke-dasharray: 15, 10;
+                        /* 15px实线，10px间隔 */
+                    }
+        
+                    .dash-flow-reverse {
+                        animation: dashFlowReverse 6s linear infinite;
+                        stroke-dasharray: 15, 10;
+                    }
+                </style>
+        
+                <g id="pic_guide_item" transform="translate(-1126 -85.258)">
+                    <!-- 背景颜色 -->
+                    <path id="bg_color"
+                        d="M1445.5,243.758H1163.2l-2.8-4.8-.2-.3H1130l-3.5-6V85.758H1409l3,5.2.2.3h30.3l3.1,5.3Z" opacity="0.3"
+                        fill="url(#radial-gradient)" />
+        
+                    <!-- 主边框虚线流动效果 -->
+                    <path id="line_border" class="dash-flow"
+                        d="M1445.5,243.758H1163.2l-2.8-4.8-.2-.3H1130l-3.5-6V85.758H1409l3,5.2.2.3h30.3l3.1,5.3Z" fill="none"
+                        stroke="#071B50" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="15,10" />
+        
+                    <!-- 增强的虚线流动效果（反方向，增加层次感） -->
+                    <path class="dash-flow-reverse"
+                        d="M1445.5,243.758H1163.2l-2.8-4.8-.2-.3H1130l-3.5-6V85.758H1409l3,5.2.2.3h30.3l3.1,5.3Z" fill="none"
+                        stroke="url(#dash-flow-gradient)" stroke-width="2" stroke-linecap="round" stroke-dasharray="8,12"
+                        opacity="0.7" />
+        
+                    <!-- 外发光虚线效果 -->
+                    <path class="dash-flow"
+                        d="M1445.5,243.758H1163.2l-2.8-4.8-.2-.3H1130l-3.5-6V85.758H1409l3,5.2.2.3h30.3l3.1,5.3Z" fill="none"
+                        stroke="#071B50" stroke-width="3" stroke-linecap="round" stroke-dasharray="20,5" opacity="0.2">
+                        <animate attributeName="stroke-dasharray" values="20,5;5,20;20,5" dur="3s" repeatCount="indefinite" />
+                    </path>
+        
+                    <path id="ele_leftbtm" d="M1126,236.4l2.9,4.9h30.2l1.7,2.9H1126Z" fill="url(#linear-gradient)" />
+                    <path id="ele_righttop" d="M1446,93.1l-2.9-4.9h-30.2l-1.7-2.9H1446Z" fill="url(#linear-gradient-2)" />
+        
+                    <!-- 顶部线条及元素 -->
+                    <g id="line_top">
+                        <path id="ele_top_l" class="horizontal-animation" d="M1132.973,95.279h8v2h-8Z" fill="#5eb0fc">
+                            <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" />
+                        </path>
+        
+                        <path id="ele_top_r" class="horizontal-animation" d="M1424.973,95.279h8v2h-8Z"
+                            transform="translate(-0.973)" fill="#5eb0fc">
+                            <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" begin="1s" />
+                        </path>
+        
+                        <path id="ele_top_line" d="M1148.973,95.279h307v1h-307Z" transform="translate(-16)"
+                            fill="url(#linear-gradient-3)" />
+                    </g>
+        
+                    <!-- 底部线条及元素 -->
+                    <g id="line_btm">
+                        <path id="ele_btm_l" class="horizontal-animation" d="M1132.973,229.218h8v2h-8Z"
+                            transform="translate(0 2)" fill="#5eb0fc">
+                            <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"
+                                begin="0.5s" />
+                        </path>
+        
+                        <path id="ele_btm_r" class="horizontal-animation" d="M1424.973,229.218h8v2h-8Z"
+                            transform="translate(-0.973 2)" fill="#5eb0fc">
+                            <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"
+                                begin="1.5s" />
+                        </path>
+        
+                        <path id="ele_btm_line" d="M1148.973,232.218h307v1h-307Z" transform="translate(-16)"
+                            fill="url(#linear-gradient-3)" />
+                    </g>
+        
+                    <!-- 左侧垂直运动元素 -->
+                    <g id="ele_lefttop" class="vertical-animation">
+                        <path
+                            d="M1132.973,146.279v-4.1h4v4.1Zm0-8.3v-4.1h4v4.1Zm0-8.2v-4.1h4v4.1Zm0-8.2v-4.1h4v4.1Zm0-8.2v-4.1h4v4.1Z"
+                            fill="url(#linear-gradient-5)">
+                            <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite" />
+                        </path>
+                    </g>
+        
+                    <!-- 右侧垂直运动元素 -->
+                    <g id="ele_rightbottom" class="vertical-animation">
+                        <path
+                            d="M1436,182.318v4.1h4v-4.1Zm0,8.2v4.1h4v-4.1Zm0,8.2v4.1h4v-4.1Zm0,8.2v4.1h4v-4.1Zm0,8.2v4.1h4v-4.1Z"
+                            fill="url(#linear-gradient-6)">
+                            <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"
+                                begin="1.5s" />
+                        </path>
+                    </g>
+                </g>
+        
+                <!-- 添加闪烁的虚线端点 -->
+                <g transform="translate(-1126 -85.258)">
+                    <!-- 顶部虚线端点 -->
+                    <circle cx="1130" cy="90" r="1.5" fill="#0080ff">
+                        <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite" />
+                        <animate attributeName="r" values="1;2;1" dur="1s" repeatCount="indefinite" />
+                    </circle>
+        
+                    <circle cx="1440" cy="90" r="1.5" fill="#0080ff">
+                        <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite" begin="0.5s" />
+                        <animate attributeName="r" values="1;2;1" dur="1s" repeatCount="indefinite" begin="0.5s" />
+                    </circle>
+        
+                    <!-- 底部虚线端点 -->
+                    <circle cx="1131" cy="235" r="1.5" fill="#0080ff">
+                        <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite" begin="0.25s" />
+                        <animate attributeName="r" values="1;2;1" dur="1s" repeatCount="indefinite" begin="0.25s" />
+                    </circle>
+        
+                    <circle cx="1440" cy="235" r="1.5" fill="#0080ff">
+                        <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite" begin="0.75s" />
+                        <animate attributeName="r" values="1;2;1" dur="1s" repeatCount="indefinite" begin="0.75s" />
+                    </circle>
+        
+                    <!-- 虚线流动点 -->
+                    <circle cx="1130" cy="90" r="1" fill="#0080ff" opacity="0.8">
+                        <animate attributeName="cx" values="1135;1440" dur="10s" repeatCount="indefinite" />
+                        <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
+                    </circle>
+        
+                    <circle cx="1440" cy="235" r="1" fill="#0080ff" opacity="0.8">
+                        <animate attributeName="cx" values="1440;1135" dur="10s" repeatCount="indefinite" begin="3s" />
+                        <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" begin="3s" />
+                    </circle>
+                </g>
+        
+                <!-- 虚线流动指示器 -->
+                <g transform="translate(-1126 -85.258)">
+                    <!-- 流动箭头 -->
+                    <path d="M1165,88 l4,0 l-2,2 l-2,-2 Z" fill="#0080ff" opacity="0.7">
+                        <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite" />
+                        <animate attributeName="transform" values="translate(0,0);translate(10,0);translate(0,0)" dur="2s"
+                            repeatCount="indefinite" />
+                    </path>
+        
+                    <path d="M1440,242 l-4,0 l2,-2 l2,2 Z" fill="#0080ff" opacity="0.7">
+                        <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite" begin="1s" />
+                        <animate attributeName="transform" values="translate(0,0);translate(-10,0);translate(0,0)" dur="2s"
+                            repeatCount="indefinite" begin="1s" />
+                    </path>
+                </g>
+            </svg>

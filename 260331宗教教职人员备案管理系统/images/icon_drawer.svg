@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="矩形_747" data-name="矩形 747" width="24" height="24" rx="2" transform="translate(-1 -1)" fill="#f7f8fa"/>
+    </clipPath>
+  </defs>
+  <g id="icon_drawer" transform="translate(1 1)" clip-path="url(#clip-path)">
+    <path id="icon_top_menu" d="M16,14.045V15.5H2.737V14.045ZM5.684,3.5v7.273L2,7.136ZM16,8.954v1.455H9.368V8.954Zm0-5.091V5.318H9.368V3.863Z" transform="translate(2 1.5)" fill="#4e5969"/>
+  </g>
+</svg>
